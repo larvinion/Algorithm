@@ -1,4 +1,4 @@
-package no2_1stcount;
+package no02_1stcount;
 
 /*
 You should use the statndard input/output

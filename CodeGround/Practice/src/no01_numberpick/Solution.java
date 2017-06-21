@@ -1,4 +1,4 @@
-package no1_numberpick;
+package no01_numberpick;
 
 import java.util.Scanner;
 import java.io.FileInputStream;

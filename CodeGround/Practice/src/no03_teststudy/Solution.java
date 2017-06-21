@@ -1,4 +1,4 @@
-package no3_teststudy;
+package no03_teststudy;
 
 import java.util.Arrays;
 import java.util.Scanner;

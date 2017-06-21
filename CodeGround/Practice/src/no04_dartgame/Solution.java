@@ -1,4 +1,4 @@
-package no4_dartgame;
+package no04_dartgame;
 
 import java.util.Scanner;
 import java.io.FileInputStream;

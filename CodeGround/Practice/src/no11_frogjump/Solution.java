@@ -51,16 +51,14 @@ class Solution {
 			int nowStone = 0;
 			int nextStone = 0;
 			int jumpCount = 0;
-			
-			// List에 빈 List가 될 때까지 반복
-			while(!stone.isEmpty()){
-				nextStone = stone.remove(0);
+
+			// remove method 사용 시 시간복잡도가 증가하므로 get method를 통해 index만 사용하여 시간 복잡도를 감소시킴
+			for(int i=0; i<stone.size();){
+				nextStone = stone.get(i);
 				
-				// 최대 점프가능 거리 안에서 건너뛸 수 있는 중간 돌들을 패스 
-				// stone List의 원소가 한개인 경우 위의 remove를 통해 Empty가 성립하므로 반복문 종료
-				while(!stone.isEmpty()){
-					if(stone.get(0) - nowStone <= canJump){
-						nextStone = stone.remove(0);
+				while(i < stone.size()){
+					if(stone.get(i) - nowStone <= canJump){
+						nextStone = stone.get(i++);
 					}else
 						break;
 				}

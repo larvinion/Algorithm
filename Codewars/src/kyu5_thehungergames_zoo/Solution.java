@@ -20,7 +20,12 @@ public class Solution {
 			list.add(temp);
 		}
 	
-		solution.add(zoo);
+		if(!zoo.isEmpty())
+			solution.add(zoo);
+		else{
+			solution.add("");
+			solution.add("");
+		}
 		
 		// 입력받은 리스트가 비어질때까지 반복
 		// 포식 할 경우 리스트의 첫번째 원소부터 다시 포식 판단을 함

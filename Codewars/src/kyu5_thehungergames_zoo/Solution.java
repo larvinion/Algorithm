@@ -96,7 +96,7 @@ public class Solution {
 					while(!list.isEmpty()){
 						str += list.remove(0) + ",";
 					}
-					solution.add(str.substring(0, str.length()-2));
+					solution.add(str.substring(0, str.length()-1));
 					break;
 				}
 			}else if(predation(solution, list.get(count), list.get(count-1))){
@@ -162,15 +162,8 @@ public class Solution {
 				if(prey.equals("grass"))
 					return list.add(predator + " eats " + prey);
 				break;
+			
 		}
 		return false;
-	}
-	
-	public static void main(String[] args){
-		//whoEatsWho("fox,bug,chicken,grass,sheep");
-		//whoEatsWho("leaves,panda,sheep,lion,cow,lion");
-		//whoEatsWho("big-fish,lion,cow,big-fish,giraffe,lion,big-fish,fox,little-fish,leaves,giraffe,big-fish,chicken");
-		whoEatsWho("little-fish,bear,bear,bear,fox");
-		//whoEatsWho("banana,banana,fox,bicycle,chicken,little-fish,antelope,chicken,antelope");
 	}
 }

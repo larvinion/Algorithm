@@ -39,7 +39,8 @@ class Solution {
 
 			// Answer = 0;
 			/////////////////////////////////////////////////////////////////////////////////////////////
-			Answer = result(sc.nextInt());
+			int input = sc.nextInt();
+			Answer = result(input);
 			/////////////////////////////////////////////////////////////////////////////////////////////
 
 
@@ -49,31 +50,27 @@ class Solution {
 		}
 	}
 	
-	public static int result(int value){
+	public static int result(int input){
 		int mod = 2;
 		
 		while(true){
-			int input = value;
-			int digit = input % mod;
+			int value = input;
+			int digit = value % mod;
 			
-			if(digit == 0){
-				mod++;
-				continue;
-			}else{
-				while(input >= 0){
-					if(input == 0)
+			if(digit != 0){
+				while(value >= 0){
+					value /= mod;
+					
+					if(value == 0)
 						return mod;
 					
-					int floorModulus = input % mod;
-					
-					if((digit ^ floorModulus) == 0){
-						input /= mod;
-						continue;
-					}else
+					if(digit != value % mod){
 						break;
+					}
 				}
-				mod++;
 			}
+			
+			mod++;
 		}
 	}
 }

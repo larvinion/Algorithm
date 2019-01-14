@@ -26,6 +26,9 @@ Baekjoon, Codeforces, Topcoder
 ##### [2742 기찍 N](https://www.acmicpc.net/problem/2742)
 > [소스 코드](https://github.com/larvinion/Algorithm/blob/master/Baekjoon/src/no2742/Main.java)
 
+##### [2750 수 정렬하기](https://www.acmicpc.net/problem/2750)
+> [소스 코드](https://github.com/larvinion/Algorithm/blob/master/Baekjoon/src/no2750/Main.java)
+
 ##### [7287 등록](https://www.acmicpc.net/problem/7287)
 > [소스 코드](https://github.com/larvinion/Algorithm/blob/master/Baekjoon/src/no7287/Main.java)
 

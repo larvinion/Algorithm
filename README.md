@@ -50,14 +50,48 @@ Baekjoon, Codeforces, Topcoder
 ##### [11719 그대로 출력하기 2](https://www.acmicpc.net/problem/11719)
 > [소스 코드](https://github.com/larvinion/Algorithm/blob/master/Baekjoon/src/no11719/Main.java)
 
-##### [11720 숫자의 합](https://www.acmicpc.net/problem/11720))
+##### [11720 숫자의 합](https://www.acmicpc.net/problem/11720)
 > [소스 코드](https://github.com/larvinion/Algorithm/blob/master/Baekjoon/src/no11719/Main.java)
 
 ##### [11721 열 개씩 끊어 출력하기](https://www.acmicpc.net/problem/11721)
 > [소스 코드](https://github.com/larvinion/Algorithm/blob/master/Baekjoon/src/no11721/Main.java)
 
 ## [Codeground](https://www.codeground.org)
-##### [Practice 1 숫자 골라내기]
+##### Practice NO.1 숫자 골라내기
 > [소스 코드](https://github.com/larvinion/Algorithm/blob/master/CodeGround/Practice/src/no01_numberpick/Solution.java)
 
 ## [Codewars](https://www.codewars.com/users/larvinion)
+### 5 kyu
+##### [Perimeter of squares in a rectangle](https://www.codewars.com/kata/559a28007caad2ac4e000083)
+> [소스 코드](https://github.com/larvinion/Algorithm/blob/master/Codewars/src/kyu4_next_bigger_number_with_the_same_digits/Solution.java)
+
+##### [Double Cola](https://www.codewars.com/kata/551dd1f424b7a4cdae0001f0)
+> [소스 코드](https://github.com/larvinion/Algorithm/blob/master/Codewars/src/kyu5_doublecola/Solution.java)
+
+##### [Weight for weight](https://www.codewars.com/kata/55c6126177c9441a570000cc)
+> [소스 코드](https://github.com/larvinion/Algorithm/blob/master/Codewars/src/kyu5_weightforweight/Solution.java)
+
+##### [Directions Reduction](https://www.codewars.com/kata/550f22f4d758534c1100025a)
+> [소스 코드](https://github.com/larvinion/Algorithm/blob/master/Codewars/src/kyu5_directionsreduction/Solution.java)
+
+##### [The Hunger Games - Zoo Disaster!](https://www.codewars.com/kata/5902bc7aba39542b4a00003d)
+> [소스 코드](https://github.com/larvinion/Algorithm/blob/master/Codewars/src/kyu5_thehungergames_zoo/Solution.java)
+
+### 6 kyu
+##### [Unique In Order](https://www.codewars.com/kata/54e6533c92449cc251001667)
+> [소스 코드](https://github.com/larvinion/Algorithm/blob/master/Codewars/src/kyu6_uniqueInorder/Solution.js)
+
+##### [Persistent Bugger.](https://www.codewars.com/kata/55bf01e5a717a0d57e0000ec)
+> [소스 코드](https://github.com/larvinion/Algorithm/blob/master/Codewars/src/kyu6_persistentbugger/Solution.java)
+
+##### [Counting Duplicates](https://www.codewars.com/kata/54bf1c2cd5b56cc47f0007a1)
+> [소스 코드](https://github.com/larvinion/Algorithm/blob/master/Codewars/src/kyu6_countingduplicates/Solution.java)
+
+##### [Decode the Morse code](https://www.codewars.com/kata/54b724efac3d5402db00065e)
+> [소스 코드](https://github.com/larvinion/Algorithm/blob/master/Codewars/src/kyu6_decodethemorsecode/Solution.java)
+
+##### [Find the odd int](https://www.codewars.com/kata/54da5a58ea159efa38000836)
+> [소스 코드](https://github.com/larvinion/Algorithm/blob/master/Codewars/src/kyu6_findtheoddint/Solution.java)
+
+##### [Playing with digits](https://www.codewars.com/kata/5552101f47fc5178b1000050)
+> [소스 코드](https://github.com/larvinion/Algorithm/blob/master/Codewars/src/kyu6_playingwithdigits/Solution.java)
